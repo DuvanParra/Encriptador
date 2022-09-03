@@ -4,9 +4,6 @@ const btnDesencriptar = document.querySelector("#btn-desencriptar");
 const mensaje = document.querySelector("#mensaje");
 const btnCopiar = document.querySelector("#btn-copiar");
 
-document.getElementById("div-resultado").style.display = 'none';
-inputverificar();
-
 document.getElementById('btn-encriptar').onclick = (e) => {
   e.preventDefault();
   const textoEncriptado = encriptar(input.value.toLowerCase());
